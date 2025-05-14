@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+@tailwind utilities;
+
+:root {
+  --primary: 220 68% 42%;
+  --primary-foreground: 208 94% 87%;
+  --text-h: 220 55% 21%;
+}
+
+@theme inline {
+    --font-primary: "Poppins", "sans-serif";
+    --color-app-primary: hsl(var(--primary));
+    --color-app-primary-foreground: hsl(var(--primary-foreground));
+    --color-app-text-h: hsl(var(--text-h));
+  
+
+    --color-morado: #534F78;
+    --color-gris:rgb(238, 238, 238);
+    
+
+  }
+
